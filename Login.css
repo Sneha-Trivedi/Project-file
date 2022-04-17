@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+.card-group{
+    -moz-box-align: center;
+    height: 5px;
+    width: 60%;
+    padding: 20px, 20px, 20px, 20px;
+    margin: 150px 120px 110px 270px;
+    box-shadow: 10px 10px 10px 10px rgb(65, 56, 56) , -10px -10px -10px -10px rgb(59, 53, 53)  ;
+    /* box-shadow: inset 4px 4px 4px #d1d9e6, inset -4px -4px 4px #f9f9f9; */
+    border-radius: 2px solid rgb(134, 134, 134);
+    }
+.imeg{
+    height: 100%;
+    width: 100%;
+    padding: 20px, 50px, 50px, 20px;
+    margin: 100px 20px 20px 0px;
+}
+
+.from{
+    text-align: center;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.head{
+    text-align: center;
+    font-size: 25px ;
+    margin-top: 20px;
+}
+.head1{
+    text-align: center;
+    font-size: 14px;
+    /* height: 14px; */
+    
+}
+.name{
+margin-top: 10px;
+padding-left: 50px;
+font-size: 13px;
+letter-spacing: 0.15px;
+/* border: none; */
+border-top: 0px white ;
+border-left: 0px white;
+border-right: 0px white;
+outline:none;
+border: #f5f5f5;
+font-family: 'Montserrat', sans-serif;
+background-color: white;
+transition: 0.25s ease;
+
+}
+.name1{
+    width: 250px;
+    height: 30px;
+    /* margin-top: ; */
+    /* margin-top: ; */
+    margin-left: 70px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    
+    
+}
+.email{
+    padding-left: 50px;
+    font-size: 13px;
+    letter-spacing: 0.15px;
+    border: none;
+    outline:none;
+    border: #f5f5f5;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    transition: 0.25s ease;
+}
+.email1{
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.password{
+    padding-left: 50px;
+    font-size: 13px;
+    letter-spacing: 0.15px;
+    border: none;
+    outline:none;
+    border: #f5f5f5;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    transition: 0.25s ease;
+}
+.password1{
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 70px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.password2{
+    
+    padding-left: 50px;
+    font-size: 13px;
+    letter-spacing: 0.15px;
+    border: none;
+    outline:none;
+    border: #f5f5f5;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    transition: 0.25s ease;  
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white; 
+}
+.password3{
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.button{
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    /* margin-bottom: 50px; */
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    /* letter-spacing: 1.15px; */
+    background-color: rgb(10, 10, 151);
+    color: #f9f9f9;
+    box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
+    border: none;
+    /* border-top: wheat ; */
+    outline: none;
+    cursor: pointer;
+}
+.hi2{
+    font-size: 18px;
+    margin-top: 15px;
+    /* margin-left: 10px; */
+    margin-left: 70px;
+    margin-bottom: 25px;
+}
+.hi{
+    /* height: 16px; */
+    font-size: 14px;
+    margin-top: 10px;
+ 
+}
+.hi1{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.hello{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.hello2{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+    .main {
+        transform: scale(0.7);
+   }
+}
+@media (max-width: 1000px) {
+    .main {
+        transform: scale(0.6);
+   }
+}
+@media (max-width: 800px) {
+    .main {
+        transform: scale(0.5);
+   }
+}
+@media (max-width: 600px) {
+    .main {
+        transform: scale(0.4);
+   }
+}
+@media (max-width: 600px) {
+    .main {
+        transform: scale(0.4);
+   }
+}
+@media (max-width: 600px) {
+    .main {
+        transform: scale(0.4);
+   }
+}@media (max-width: 600px) {
+    .password2{
+        transform: scale(0.4);
+   }
+}
+
+
+
+
+
+
+
+
+/* .imeg{
+    text-align: center;
+}
+.head {
+    text-align: center;
+    font-size: 25px ;
+     font-style: bold;
+    color: rgb(0, 0, 0);
+}
+
+.from-1{
+    background-color: brown;
+}
+.from-2{
+    background-color: brown;
+}
+.from-3{
+    background-color: brown;
+}
+.from-4{
+    background-color: brown;
+}
+.from-5{
+    background-color: brown;
+}
+.from-6{
+    background-color: brown;
+}
+.from-7{
+    background-color: brown;
+} */
+

@@ -1,0 +1,15 @@
+.color{
+    background-color:#3c5898;
+    
+}
+h5{
+    text-align: center;
+    color:#Fefefe;
+    font-size: 25px;
+}
+.card:hover{
+    box-shadow: 10px 10px 25px gray;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 30px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

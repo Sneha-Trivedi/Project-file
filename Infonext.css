@@ -1,0 +1,51 @@
+#inputFeild{
+    height: 1.7em;
+    width: 10em;
+}
+.container{
+    width:40vw;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+#btn{
+    height: 1.7em;
+    background-color: #3c5898;
+}
+
+#nxt{
+    font-size: 1.4em;
+    background-color: #3c5898;
+
+}
+
+
+#mainCtn{
+    background-color: white;
+}
+
+#academics{
+    color: #3c5898;
+    font-size: 2.6em;
+   
+    
+}
+
+#head{
+    font-weight: 500;
+    font-size: 1em;
+}
+
+#label{
+    font-weight: 400;
+    /* margin-left: 10px; */
+}
+.mgn{
+    margin-left:10px;
+}
+.font{
+    font-weight: 500;
+    border:2px solid gray;
+    border-radius: 10px;
+    
+}
